@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Payroll</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="sidebar">
+  <h2>Payroll</h2>
+  <a href="admin-dashboard.html">Dashboard</a>
+</div>
+
+<div class="main">
+  <h1>Generate Payroll</h1>
+
+  <div class="card">
+    <input id="payEmpId" placeholder="Employee ID">
+    <input id="month" placeholder="Month">
+    <button class="btn-primary" onclick="generatePayroll()">Generate</button>
+  </div>
+</div>
+
+<script src="js/api.js"></script>
+</body>
+</html>

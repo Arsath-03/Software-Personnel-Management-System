@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="sidebar">
+  <h2>Admin Panel</h2>
+  <a href="admin-dashboard.html">Dashboard</a>
+  <a href="employees.html">Employees</a>
+  <a href="attendance.html">Attendance</a>
+  <a href="payroll.html">Payroll</a>
+  <a href="performance.html">Performance</a>
+  <a href="projects.html">Projects</a>
+  <a href="index.html">Logout</a>
+</div>
+
+<div class="main">
+  <h1>Admin Dashboard</h1>
+
+  <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:20px;">
+    <div class="card">
+      <h3>Total Employees</h3>
+      <p id="empCount">--</p>
+    </div>
+
+    <div class="card">
+      <h3>Total Projects</h3>
+      <p id="projectCount">--</p>
+    </div>
+
+    <div class="card">
+      <h3>Payroll Reports</h3>
+      <p>Monthly Salary Overview</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

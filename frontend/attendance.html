@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Attendance</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="sidebar">
+  <h2>Attendance</h2>
+  <a href="admin-dashboard.html">Dashboard</a>
+</div>
+
+<div class="main">
+  <h1>Attendance Management</h1>
+
+  <div class="card">
+    <input id="empId" placeholder="Employee ID">
+    <select id="status">
+      <option value="Present">Present</option>
+      <option value="Absent">Absent</option>
+    </select>
+    <button class="btn-primary" onclick="markAttendance()">Mark</button>
+  </div>
+</div>
+
+<script src="js/api.js"></script>
+</body>
+</html>

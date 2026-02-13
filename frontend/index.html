@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login - Personnel System</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-blue-500 to-purple-600 h-screen flex items-center justify-center">
+
+<div class="bg-white p-8 rounded-xl shadow-xl w-96">
+  <h2 class="text-2xl font-bold text-center mb-6">Personnel Management System</h2>
+
+  <input id="email" type="email" placeholder="Email"
+    class="w-full border p-2 mb-4 rounded">
+
+  <input id="password" type="password" placeholder="Password"
+    class="w-full border p-2 mb-4 rounded">
+
+  <button onclick="login()"
+    class="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700">
+    Login
+  </button>
+</div>
+
+<script src="js/api.js"></script>
+</body>
+</html>
